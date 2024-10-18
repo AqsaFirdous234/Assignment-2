@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header{
+  
+background-color: black;
+}
+.navbar{
+  color: aqua;
+  font-family: sans-serif;
+ height: 100px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: rgb(0, 0, 0);
+  
+ 
+}
+.header-button{
+  display: flex;
+  justify-content: flex-end;
+   gap: 50px;
+  margin-top: 20px;
+}
+.logo{
+  border-radius: 50%;
+  overflow: hidden;
+  border: 6px solid aqua;
+  width: 90px;
+  position:absolute;
+  top: 5px;
+  box-shadow:  0px 0px 10px 5px rgb(4, 170, 221);
+}
+.line{
+  background-color: aqua;
+}
+.profile-Info{
+  background-color: black;
+  height: 550px;
+  color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+.info{
+  position: absolute;
+  top: 200px;
+  left: 40px;
+}
+.profile{
+  position: absolute;
+  top: 130px;
+  right: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow:  0px 0px 10px 5px rgb(4, 170, 221);
+  border: 6px solid aqua;
+}
+
